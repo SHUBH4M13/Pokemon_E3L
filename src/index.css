@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-MateBlack: #121212;
+  --color-DarkBlue: #002F63;
+  --font-PokemonHollow : "PokemonHollow" , sans-serif;
+  --font-PokemonSolid : "PokemonSolid" , sans-serif;
+  --font-Helvetica : "Helvetica" , sans-serif;
+}
+
+
+@font-face {
+  font-family: 'PokemonHollow';
+  src: url('src/pokeFont/Pokemon Hollow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('src/pokeFont/Helvetica.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('src/pokeFont/Pokemon Solid.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.arc{
+  clip-path: ellipse(100% 100% at 50% 0%);
+}
