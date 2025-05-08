@@ -91,7 +91,7 @@ function AbilityPage(props) {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mt-4 md:mt-8">
+        <div className="flex justify-center items-center mt-2 md:mt-4">
           <button 
             onClick={props.onBack}
             className="cursor-pointer bg-red-700 hover:bg-red-800 font-Helvetica text-white rounded-2xl w-[100px] h-[50px] transition-colors"
