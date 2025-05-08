@@ -53,7 +53,6 @@ export default function Card(props) {
 function AbilityPage(props) {
   return (
     <div className="w-full max-w-full md:h-[600px] md:w-[900px] bg-GreyBlack flex flex-col md:flex-row">
-      {/* Image container - full width on mobile, 1/3 width on desktop */}
       <div className="w-full md:w-2/6 py-8 md:py-0 bg-MateBlack flex justify-center items-center">
         <img
           className="max-h-[200px] md:max-h-none md:p-16 object-contain"
@@ -62,7 +61,6 @@ function AbilityPage(props) {
         />
       </div>
 
-      {/* Info container - full width on mobile, 2/3 width on desktop */}
       <div className="w-full md:w-4/6 flex flex-col items-center py-8 md:py-10 px-4 md:px-8 gap-6 md:gap-10">
         <div className="w-full">
           <p className="font-Helvetica text-center text-xl md:text-3xl text-white">
@@ -91,7 +89,7 @@ function AbilityPage(props) {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mt-2 md:mt-4">
+        <div className="flex justify-center items-center">
           <button 
             onClick={props.onBack}
             className="cursor-pointer bg-red-700 hover:bg-red-800 font-Helvetica text-white rounded-2xl w-[100px] h-[50px] transition-colors"
