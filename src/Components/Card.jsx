@@ -36,7 +36,7 @@ export default function Card(props) {
       </div>
 
       <div className="py-5">
-        <p className="text-white font-Helvetica text-2xl">{props.pokemonname}</p>
+        <p className="text-whitef font-Helvetica text-2xl">{props.pokemonname}</p>
       </div>
 
       <div className="w-full px-5 py-5">
